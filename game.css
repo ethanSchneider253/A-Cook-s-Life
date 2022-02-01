@@ -1,0 +1,115 @@
+*{box-sizing: border-box;}
+
+:root {
+    --headerText: #37d104;
+    --mainBackground: #9c9c9c;
+    --gradientColor: #303030;
+    --gameFont: 'Press Start 2P', 'cursive' ;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-45deg, #000,var(--gradientColor));
+    height: 110vh;
+}
+
+.header{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.title-header{
+    font-family: var(--gameFont);
+    color: var(--headerText);
+
+}
+
+.title-subtext{
+    font-family: var(--gameFont);
+    color: var(--headerText);
+}
+
+.header-img{
+    width: 50px;
+    height: 50px;
+}
+
+.mian{
+    
+}
+
+.game-section{
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.front-img{
+    margin-left: 42%;
+    /* width: 150px; */
+    /* height: 150px; */
+    border-radius: 50%;
+}
+
+.card-section{
+    margin: 10px;
+    padding: 10px;
+    /* background-color: var(--mainBackground); */
+}
+
+.start-btn{
+    margin-left: 43%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: var(--gradientColor);
+    color: var(--headerText);
+    font-family: var(--gameFont);
+    text-transform: uppercase;
+}
+
+.start-btn:hover{
+    background-color: var(--headerText);
+    color: black;
+}
+
+.nxt-btn{
+    background-color: var(--gradientColor);
+    color:var(--headerText);
+    border: 2px solid var(--headerText);
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: var(--gameFont);
+}
+
+.nxt-btn:hover{
+    background-color: var(--headerText);
+    color: var(--gradientColor);
+    border: none;
+}
+
+
+.card-div{
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--gradientColor);
+    /* background-color: transparent; */
+}
+
+.card-div-img{
+    /* width: 25%; */
+    /* height: 25%; */
+    margin-left: 32%;
+    padding-bottom: 20px;
+}
+
+.card-text{
+    font-family: var(--gameFont);
+    color: var(--headerText)
+}
+
+label{
+    font-family: var(--gameFont);
+    color: var(--headerText)
+}
